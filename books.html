@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои любимые книги</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="places.html">Любимые места</a></li>
+                <li>Любимые книги</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Мои любимые книги</h1>
+
+        <div class="books-flex">
+            <div class="card book">
+                <img src="pic/Снимок экрана (11).png" alt="Обложка Безмолвный пациент">
+                <h3>Безмолвный пациент. Алекс Михаэлидес</h3>
+                <p>Очень понравилась эта книга, готов прочитать ее еще раз</p>
+                <a href="https://www.chitai-gorod.ru/product/bezmolvnyy-pacient-2712955?ysclid=ma0w9vz1kn65709439" target="_blank">Купить</a>
+                <a href="#" class="like-button" data-book="book1">Лайк</a>
+            </div>
+
+            <div class="card book">
+                <img src="pic/harry.png" alt="Обложка Гарри Поттер">
+                <h3>Гарри Поттер и философский камень</h3>
+                <p>классика </p>
+                <a href="https://www.chitai-gorod.ru/product/garri-potter-i-filosofskiy-kamen-2405917" target="_blank">Купить</a>
+                <a href="#" class="like-button" data-book="book2">Лайк</a>
+            </div>
+
+            <div class="card book">
+                <img src="pic/piknik.png" alt="Обложка Пикник на обочине">
+                <h3>Пикник на обочине. Стругацкие</h3>
+                <p>интересная книга в жанре фантастики</p>
+                <a href="https://www.chitai-gorod.ru/product/piknik-na-obochine-2467382" target="_blank">Купить</a>
+                <a href="#" class="like-button" data-book="book3">Лайк</a>
+            </div>
+        </div>
+
+        <div class="accessibility-nav">
+            <button id="increase-font">Увеличить шрифт</button>
+            <button id="decrease-font">Уменьшить шрифт</button>
+            <button id="toggle-contrast">Высокий контраст</button>
+        </div>
+        <button id="increase-font" aria-label="Увеличить размер шрифта">Увеличить шрифт</button>
+        <a href="index.html" class="back-button">Вернуться на главную</a>
+    </main>
+
+    <footer>
+        <p>© 2025 Мой сайт</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
